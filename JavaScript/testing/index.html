@@ -10,23 +10,22 @@
 
 
     <button id=connectbtn>Connect</button>
-    <script>
+    <!-- <script>
     
         document.getElementById("connectbtn").addEventListener("click", test); 
         console.log("i am here");
     
         function test(){
             navigator.usb.getDevices().then(devices => {
-            devices.forEach(device => {
-            console.log(device.productName);      // "Arduino Micro"
-            console.log(device.manufacturerName); // "Arduino LLC"
-            console.log("working")
-  }); 
-}); console.log("i am here2");
+                devices.forEach(device => {
+                    console.log(device.productName);      // "Arduino Micro"
+                    console.log(device.manufacturerName); // "Arduino LLC"
+                    console.log("working")
+                }); 
+            });
         }
-
-
-    </script>
-    <script src="./index.js"></script>
+        console.log(test.device.productName)
+    </script> -->
+    <script src="./bundle.js"></script>
 </body>
 </html>

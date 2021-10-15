@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/8v-piper/testing/issues"
   },
-  "homepage": "https://github.com/8v-piper/testing#readme"
+  "homepage": "https://github.com/8v-piper/testing#readme",
+  "devDependencies": {
+    "node-hid": "^2.1.1"
+  }
 }
