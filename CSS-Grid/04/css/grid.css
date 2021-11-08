@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 1em;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: min-content;
+    gap: 1em;
+    grid-auto-flow: row;
+}
+
+header, footer {
+    grid-column: 1 /13;
+}
+
+nav, aside {
+    grid-column: 1/5;
+}
+
+main {
+    grid-column: 5/13;
+    grid-row: 2/4;
+}
+
+#pie1, #pie5 {
+    grid-column: 1/4;
+}
+#pie2, #pie6 {
+    grid-column: 4/7;
+}
+#pie3, #pie7 {
+    grid-column: 7/10;
+}
+#pie4, #pie8 {
+    grid-column: 10/12;
+}
